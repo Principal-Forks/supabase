@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
-    "cms#build": {
+    "tools/cms#build": {
       "dependsOn": ["^build"],
       "env": [
         "BLOG_APP_URL",
@@ -27,7 +27,7 @@
       ],
       "outputs": [".next/**", "!.next/cache/**"]
     },
-    "design-system#build": {
+    "tools/design-system#build": {
       "dependsOn": ["^build"],
       "env": [
         "NEXT_PUBLIC_BASE_PATH",
@@ -43,7 +43,7 @@
       ],
       "outputs": [".next/**", "!.next/cache/**", ".contentlayer/**"]
     },
-    "studio#build": {
+    "platform/studio#build": {
       "dependsOn": ["^build"],
       "env": [
         "ANALYZE",
@@ -129,7 +129,7 @@
       "passThroughEnv": ["CURRENT_CLI_VERSION", "VERCEL_GIT_COMMIT_SHA"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
-    "www#build": {
+    "docs/www#build": {
       "dependsOn": ["^build"],
       "env": [
         "ANALYZE",
@@ -203,7 +203,7 @@
       ],
       "outputs": [".next/**", "!.next/cache/**", ".contentlayer/**"]
     },
-    "ui-library#build": {
+    "tools/ui-library#build": {
       "dependsOn": ["^build"],
       "env": [
         "NEXT_PUBLIC_BASE_PATH",

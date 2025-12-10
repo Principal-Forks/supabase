@@ -1,8 +1,11 @@
 packages:
-  - apps/*
+  - platform/*
+  - tools/*
+  - docs/*
   - packages/*
   - blocks/*
-  - e2e/*
+  - examples/*
+  - infrastructure/testing/*
 
 catalog:
   '@sentry/nextjs': ^10.26.0

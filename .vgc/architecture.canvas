@@ -1,0 +1,794 @@
+{
+  "vv": {
+    "name": "Supabase Architecture",
+    "version": "1.0.0",
+    "nodeTypes": {
+      "application": {
+        "color": "#3B82F6",
+        "icon": "Layout"
+      },
+      "core": {
+        "color": "#10B981",
+        "icon": "Package"
+      },
+      "tools": {
+        "color": "#F59E0B",
+        "icon": "Wand2"
+      },
+      "infrastructure": {
+        "color": "#8B5CF6",
+        "icon": "Settings"
+      },
+      "external": {
+        "color": "#EF4444",
+        "icon": "Cloud"
+      }
+    },
+    "edgeTypes": {
+      "uses": {
+        "style": "solid",
+        "color": "#3B82F6"
+      },
+      "imports": {
+        "style": "dashed",
+        "color": "#10B981"
+      },
+      "extends": {
+        "style": "solid",
+        "color": "#F59E0B"
+      },
+      "communicates-with": {
+        "style": "animated",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": "www",
+      "type": "text",
+      "x": 2180,
+      "y": 390,
+      "width": 140,
+      "height": 70,
+      "text": "Marketing Site",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "docs",
+      "type": "text",
+      "x": 2980,
+      "y": 90,
+      "width": 140,
+      "height": 70,
+      "text": "Documentation",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "studio",
+      "type": "text",
+      "x": 1380,
+      "y": 390,
+      "width": 140,
+      "height": 70,
+      "text": "Studio",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "cms",
+      "type": "text",
+      "x": 2580,
+      "y": 90,
+      "width": 140,
+      "height": 70,
+      "text": "CMS",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "design-system",
+      "type": "text",
+      "x": 3580,
+      "y": 390,
+      "width": 140,
+      "height": 70,
+      "text": "Design System",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "ui-library",
+      "type": "text",
+      "x": 2980,
+      "y": 390,
+      "width": 140,
+      "height": 70,
+      "text": "UI Library",
+      "vv": {
+        "nodeType": "application",
+        "shape": "rectangle",
+        "color": "#3B82F6"
+      }
+    },
+    {
+      "id": "pg-meta",
+      "type": "text",
+      "x": 1680,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Postgres Meta",
+      "vv": {
+        "nodeType": "core",
+        "shape": "rectangle",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "common",
+      "type": "text",
+      "x": 2680,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Common",
+      "vv": {
+        "nodeType": "core",
+        "shape": "rectangle",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "api-types",
+      "type": "text",
+      "x": 3080,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "API Types",
+      "vv": {
+        "nodeType": "core",
+        "shape": "rectangle",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "ui",
+      "type": "text",
+      "x": 4680,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "UI Components",
+      "vv": {
+        "nodeType": "core",
+        "shape": "rectangle",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "ui-patterns",
+      "type": "text",
+      "x": 3980,
+      "y": 390,
+      "width": 140,
+      "height": 70,
+      "text": "UI Patterns",
+      "vv": {
+        "nodeType": "core",
+        "shape": "rectangle",
+        "color": "#10B981"
+      }
+    },
+    {
+      "id": "ai-commands",
+      "type": "text",
+      "x": 5480,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "AI Commands",
+      "vv": {
+        "nodeType": "tools",
+        "shape": "rectangle",
+        "color": "#F59E0B"
+      }
+    },
+    {
+      "id": "generator",
+      "type": "text",
+      "x": 2080,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Generator",
+      "vv": {
+        "nodeType": "tools",
+        "shape": "rectangle",
+        "color": "#F59E0B"
+      }
+    },
+    {
+      "id": "shared-data",
+      "type": "text",
+      "x": 2680,
+      "y": 990,
+      "width": 140,
+      "height": 70,
+      "text": "Shared Data",
+      "vv": {
+        "nodeType": "infrastructure",
+        "shape": "rectangle",
+        "color": "#8B5CF6"
+      }
+    },
+    {
+      "id": "config",
+      "type": "text",
+      "x": 2780,
+      "y": 1290,
+      "width": 140,
+      "height": 70,
+      "text": "Config",
+      "vv": {
+        "nodeType": "infrastructure",
+        "shape": "rectangle",
+        "color": "#8B5CF6"
+      }
+    },
+    {
+      "id": "tsconfig",
+      "type": "text",
+      "x": 3280,
+      "y": 990,
+      "width": 140,
+      "height": 70,
+      "text": "TS Config",
+      "vv": {
+        "nodeType": "infrastructure",
+        "shape": "rectangle",
+        "color": "#8B5CF6"
+      }
+    },
+    {
+      "id": "eslint-config",
+      "type": "text",
+      "x": 3680,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "ESLint Config",
+      "vv": {
+        "nodeType": "infrastructure",
+        "shape": "rectangle",
+        "color": "#8B5CF6"
+      }
+    },
+    {
+      "id": "postgres",
+      "type": "text",
+      "x": 2080,
+      "y": 990,
+      "width": 140,
+      "height": 70,
+      "text": "PostgreSQL",
+      "vv": {
+        "nodeType": "external",
+        "shape": "cylinder",
+        "color": "#EF4444"
+      }
+    },
+    {
+      "id": "auth",
+      "type": "text",
+      "x": 480,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Auth Service",
+      "vv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "color": "#EF4444"
+      }
+    },
+    {
+      "id": "storage",
+      "type": "text",
+      "x": 880,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Storage",
+      "vv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "color": "#EF4444"
+      }
+    },
+    {
+      "id": "realtime",
+      "type": "text",
+      "x": 1280,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Realtime",
+      "vv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "color": "#EF4444"
+      }
+    },
+    {
+      "id": "edge-functions",
+      "type": "text",
+      "x": 80,
+      "y": 690,
+      "width": 140,
+      "height": 70,
+      "text": "Edge Functions",
+      "vv": {
+        "nodeType": "external",
+        "shape": "rectangle",
+        "color": "#EF4444"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "studio-uses-pgmeta",
+      "fromNode": "studio",
+      "toNode": "pg-meta",
+      "label": "database management",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "studio-uses-common",
+      "fromNode": "studio",
+      "toNode": "common",
+      "color": "#10B981",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "www-uses-common",
+      "fromNode": "www",
+      "toNode": "common",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "docs-uses-design-system",
+      "fromNode": "docs",
+      "toNode": "design-system",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "docs-uses-common",
+      "fromNode": "docs",
+      "toNode": "common",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "cms-uses-ui-library",
+      "fromNode": "cms",
+      "toNode": "ui-library",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "cms-uses-common",
+      "fromNode": "cms",
+      "toNode": "common",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "design-system-extends-ui",
+      "fromNode": "design-system",
+      "toNode": "ui",
+      "color": "#F59E0B",
+      "vv": {
+        "edgeType": "extends",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "ui-patterns-extends-ui",
+      "fromNode": "ui-patterns",
+      "toNode": "ui",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "extends",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "pg-meta-communicates-postgres",
+      "fromNode": "pg-meta",
+      "toNode": "postgres",
+      "label": "SQL queries",
+      "color": "#EF4444",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "generator-uses-shared-data",
+      "fromNode": "generator",
+      "toNode": "shared-data",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    },
+    {
+      "id": "common-uses-shared-data",
+      "fromNode": "common",
+      "toNode": "shared-data",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    },
+    {
+      "id": "studio-communicates-auth",
+      "fromNode": "studio",
+      "toNode": "auth",
+      "label": "user auth",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "communicates-with",
+        "style": "animated"
+      }
+    },
+    {
+      "id": "studio-communicates-storage",
+      "fromNode": "studio",
+      "toNode": "storage",
+      "label": "file ops",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "communicates-with",
+        "style": "animated"
+      }
+    },
+    {
+      "id": "studio-communicates-realtime",
+      "fromNode": "studio",
+      "toNode": "realtime",
+      "label": "subscriptions",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "communicates-with",
+        "style": "animated"
+      }
+    },
+    {
+      "id": "studio-communicates-edge-functions",
+      "fromNode": "studio",
+      "toNode": "edge-functions",
+      "label": "function calls",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "communicates-with",
+        "style": "animated"
+      }
+    },
+    {
+      "id": "auth-uses-postgres",
+      "fromNode": "auth",
+      "toNode": "postgres",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "storage-uses-postgres",
+      "fromNode": "storage",
+      "toNode": "postgres",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "realtime-uses-postgres",
+      "fromNode": "realtime",
+      "toNode": "postgres",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "edge-functions-uses-postgres",
+      "fromNode": "edge-functions",
+      "toNode": "postgres",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "solid"
+      }
+    },
+    {
+      "id": "www-uses-eslint-config",
+      "fromNode": "www",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "docs-uses-eslint-config",
+      "fromNode": "docs",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "studio-uses-eslint-config",
+      "fromNode": "studio",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "cms-uses-eslint-config",
+      "fromNode": "cms",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "design-system-uses-eslint-config",
+      "fromNode": "design-system",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "ui-library-uses-eslint-config",
+      "fromNode": "ui-library",
+      "toNode": "eslint-config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "www-uses-tsconfig",
+      "fromNode": "www",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "docs-uses-tsconfig",
+      "fromNode": "docs",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "studio-uses-tsconfig",
+      "fromNode": "studio",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "cms-uses-tsconfig",
+      "fromNode": "cms",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "design-system-uses-tsconfig",
+      "fromNode": "design-system",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "ui-library-uses-tsconfig",
+      "fromNode": "ui-library",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "pg-meta-uses-tsconfig",
+      "fromNode": "pg-meta",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "common-uses-tsconfig",
+      "fromNode": "common",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "api-types-uses-tsconfig",
+      "fromNode": "api-types",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "ui-uses-tsconfig",
+      "fromNode": "ui",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "ui-patterns-uses-tsconfig",
+      "fromNode": "ui-patterns",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "ai-commands-uses-tsconfig",
+      "fromNode": "ai-commands",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "generator-uses-tsconfig",
+      "fromNode": "generator",
+      "toNode": "tsconfig",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "imports",
+        "style": "dashed"
+      }
+    },
+    {
+      "id": "shared-data-uses-config",
+      "fromNode": "shared-data",
+      "toNode": "config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    },
+    {
+      "id": "common-uses-config",
+      "fromNode": "common",
+      "toNode": "config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    },
+    {
+      "id": "ai-commands-uses-config",
+      "fromNode": "ai-commands",
+      "toNode": "config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    },
+    {
+      "id": "generator-uses-config",
+      "fromNode": "generator",
+      "toNode": "config",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "uses",
+        "style": "dotted"
+      }
+    }
+  ]
+}
