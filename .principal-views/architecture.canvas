@@ -1,5 +1,5 @@
 {
-  "vv": {
+  "pv": {
     "name": "Supabase Architecture",
     "version": "1.0.0",
     "nodeTypes": {
@@ -52,10 +52,10 @@
       "width": 140,
       "height": 70,
       "text": "Marketing Site",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -66,10 +66,10 @@
       "width": 140,
       "height": 70,
       "text": "Documentation",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -80,10 +80,10 @@
       "width": 140,
       "height": 70,
       "text": "Studio",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -94,10 +94,10 @@
       "width": 140,
       "height": 70,
       "text": "CMS",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -108,10 +108,10 @@
       "width": 140,
       "height": 70,
       "text": "Design System",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -122,10 +122,10 @@
       "width": 140,
       "height": 70,
       "text": "UI Library",
-      "vv": {
+      "pv": {
         "nodeType": "application",
         "shape": "rectangle",
-        "color": "#3B82F6"
+        "fill": "#3B82F6"
       }
     },
     {
@@ -136,10 +136,10 @@
       "width": 140,
       "height": 70,
       "text": "Postgres Meta",
-      "vv": {
+      "pv": {
         "nodeType": "core",
         "shape": "rectangle",
-        "color": "#10B981"
+        "fill": "#10B981"
       }
     },
     {
@@ -150,10 +150,10 @@
       "width": 140,
       "height": 70,
       "text": "Common",
-      "vv": {
+      "pv": {
         "nodeType": "core",
         "shape": "rectangle",
-        "color": "#10B981"
+        "fill": "#10B981"
       }
     },
     {
@@ -164,10 +164,10 @@
       "width": 140,
       "height": 70,
       "text": "API Types",
-      "vv": {
+      "pv": {
         "nodeType": "core",
         "shape": "rectangle",
-        "color": "#10B981"
+        "fill": "#10B981"
       }
     },
     {
@@ -178,10 +178,10 @@
       "width": 140,
       "height": 70,
       "text": "UI Components",
-      "vv": {
+      "pv": {
         "nodeType": "core",
         "shape": "rectangle",
-        "color": "#10B981"
+        "fill": "#10B981"
       }
     },
     {
@@ -192,10 +192,10 @@
       "width": 140,
       "height": 70,
       "text": "UI Patterns",
-      "vv": {
+      "pv": {
         "nodeType": "core",
         "shape": "rectangle",
-        "color": "#10B981"
+        "fill": "#10B981"
       }
     },
     {
@@ -206,10 +206,10 @@
       "width": 140,
       "height": 70,
       "text": "AI Commands",
-      "vv": {
+      "pv": {
         "nodeType": "tools",
         "shape": "rectangle",
-        "color": "#F59E0B"
+        "fill": "#F59E0B"
       }
     },
     {
@@ -220,10 +220,10 @@
       "width": 140,
       "height": 70,
       "text": "Generator",
-      "vv": {
+      "pv": {
         "nodeType": "tools",
         "shape": "rectangle",
-        "color": "#F59E0B"
+        "fill": "#F59E0B"
       }
     },
     {
@@ -234,10 +234,10 @@
       "width": 140,
       "height": 70,
       "text": "Shared Data",
-      "vv": {
+      "pv": {
         "nodeType": "infrastructure",
         "shape": "rectangle",
-        "color": "#8B5CF6"
+        "fill": "#8B5CF6"
       }
     },
     {
@@ -248,10 +248,10 @@
       "width": 140,
       "height": 70,
       "text": "Config",
-      "vv": {
+      "pv": {
         "nodeType": "infrastructure",
         "shape": "rectangle",
-        "color": "#8B5CF6"
+        "fill": "#8B5CF6"
       }
     },
     {
@@ -262,10 +262,10 @@
       "width": 140,
       "height": 70,
       "text": "TS Config",
-      "vv": {
+      "pv": {
         "nodeType": "infrastructure",
         "shape": "rectangle",
-        "color": "#8B5CF6"
+        "fill": "#8B5CF6"
       }
     },
     {
@@ -276,10 +276,10 @@
       "width": 140,
       "height": 70,
       "text": "ESLint Config",
-      "vv": {
+      "pv": {
         "nodeType": "infrastructure",
         "shape": "rectangle",
-        "color": "#8B5CF6"
+        "fill": "#8B5CF6"
       }
     },
     {
@@ -290,10 +290,10 @@
       "width": 140,
       "height": 70,
       "text": "PostgreSQL",
-      "vv": {
+      "pv": {
         "nodeType": "external",
         "shape": "cylinder",
-        "color": "#EF4444"
+        "fill": "#EF4444"
       }
     },
     {
@@ -304,10 +304,10 @@
       "width": 140,
       "height": 70,
       "text": "Auth Service",
-      "vv": {
+      "pv": {
         "nodeType": "external",
         "shape": "rectangle",
-        "color": "#EF4444"
+        "fill": "#EF4444"
       }
     },
     {
@@ -318,10 +318,10 @@
       "width": 140,
       "height": 70,
       "text": "Storage",
-      "vv": {
+      "pv": {
         "nodeType": "external",
         "shape": "rectangle",
-        "color": "#EF4444"
+        "fill": "#EF4444"
       }
     },
     {
@@ -332,10 +332,10 @@
       "width": 140,
       "height": 70,
       "text": "Realtime",
-      "vv": {
+      "pv": {
         "nodeType": "external",
         "shape": "rectangle",
-        "color": "#EF4444"
+        "fill": "#EF4444"
       }
     },
     {
@@ -346,10 +346,10 @@
       "width": 140,
       "height": 70,
       "text": "Edge Functions",
-      "vv": {
+      "pv": {
         "nodeType": "external",
         "shape": "rectangle",
-        "color": "#EF4444"
+        "fill": "#EF4444"
       }
     }
   ],
@@ -360,7 +360,7 @@
       "toNode": "pg-meta",
       "label": "database management",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -370,7 +370,7 @@
       "fromNode": "studio",
       "toNode": "common",
       "color": "#10B981",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -380,7 +380,7 @@
       "fromNode": "www",
       "toNode": "common",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -390,7 +390,7 @@
       "fromNode": "docs",
       "toNode": "design-system",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -400,7 +400,7 @@
       "fromNode": "docs",
       "toNode": "common",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -410,7 +410,7 @@
       "fromNode": "cms",
       "toNode": "ui-library",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -420,7 +420,7 @@
       "fromNode": "cms",
       "toNode": "common",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -430,7 +430,7 @@
       "fromNode": "design-system",
       "toNode": "ui",
       "color": "#F59E0B",
-      "vv": {
+      "pv": {
         "edgeType": "extends",
         "style": "solid"
       }
@@ -440,7 +440,7 @@
       "fromNode": "ui-patterns",
       "toNode": "ui",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "extends",
         "style": "solid"
       }
@@ -451,7 +451,7 @@
       "toNode": "postgres",
       "label": "SQL queries",
       "color": "#EF4444",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -461,7 +461,7 @@
       "fromNode": "generator",
       "toNode": "shared-data",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }
@@ -471,7 +471,7 @@
       "fromNode": "common",
       "toNode": "shared-data",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }
@@ -482,7 +482,7 @@
       "toNode": "auth",
       "label": "user auth",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "communicates-with",
         "style": "animated"
       }
@@ -493,7 +493,7 @@
       "toNode": "storage",
       "label": "file ops",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "communicates-with",
         "style": "animated"
       }
@@ -504,7 +504,7 @@
       "toNode": "realtime",
       "label": "subscriptions",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "communicates-with",
         "style": "animated"
       }
@@ -515,7 +515,7 @@
       "toNode": "edge-functions",
       "label": "function calls",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "communicates-with",
         "style": "animated"
       }
@@ -525,7 +525,7 @@
       "fromNode": "auth",
       "toNode": "postgres",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -535,7 +535,7 @@
       "fromNode": "storage",
       "toNode": "postgres",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -545,7 +545,7 @@
       "fromNode": "realtime",
       "toNode": "postgres",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -555,7 +555,7 @@
       "fromNode": "edge-functions",
       "toNode": "postgres",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "solid"
       }
@@ -565,7 +565,7 @@
       "fromNode": "www",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -575,7 +575,7 @@
       "fromNode": "docs",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -585,7 +585,7 @@
       "fromNode": "studio",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -595,7 +595,7 @@
       "fromNode": "cms",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -605,7 +605,7 @@
       "fromNode": "design-system",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -615,7 +615,7 @@
       "fromNode": "ui-library",
       "toNode": "eslint-config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -625,7 +625,7 @@
       "fromNode": "www",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -635,7 +635,7 @@
       "fromNode": "docs",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -645,7 +645,7 @@
       "fromNode": "studio",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -655,7 +655,7 @@
       "fromNode": "cms",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -665,7 +665,7 @@
       "fromNode": "design-system",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -675,7 +675,7 @@
       "fromNode": "ui-library",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -685,7 +685,7 @@
       "fromNode": "pg-meta",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -695,7 +695,7 @@
       "fromNode": "common",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -705,7 +705,7 @@
       "fromNode": "api-types",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -715,7 +715,7 @@
       "fromNode": "ui",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -725,7 +725,7 @@
       "fromNode": "ui-patterns",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -735,7 +735,7 @@
       "fromNode": "ai-commands",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -745,7 +745,7 @@
       "fromNode": "generator",
       "toNode": "tsconfig",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "imports",
         "style": "dashed"
       }
@@ -755,7 +755,7 @@
       "fromNode": "shared-data",
       "toNode": "config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }
@@ -765,7 +765,7 @@
       "fromNode": "common",
       "toNode": "config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }
@@ -775,7 +775,7 @@
       "fromNode": "ai-commands",
       "toNode": "config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }
@@ -785,7 +785,7 @@
       "fromNode": "generator",
       "toNode": "config",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "uses",
         "style": "dotted"
       }

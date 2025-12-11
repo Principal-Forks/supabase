@@ -1,212 +1,159 @@
 version: "1.0.0"
-name: "Supabase Component Library"
 
 nodeComponents:
   # Core Applications
   studio:
-    name: "Studio"
     description: "Main dashboard for managing Supabase projects"
     icon: "Layout"
-    category: "application"
     color: 4
   
   www:
-    name: "Marketing Website"
     description: "Public marketing and documentation site"
     icon: "Globe"
-    category: "application"
     color: 3
   
   docs:
-    name: "Documentation"
     description: "Technical documentation site"
     icon: "BookOpen"
-    category: "application"
     color: 5
   
   cms:
-    name: "CMS"
     description: "Content management system"
     icon: "FileText"
-    category: "application"
     color: 2
   
   design-system:
-    name: "Design System"
     description: "UI component library and design tokens"
     icon: "Palette"
-    category: "application"
     color: 6
   
   ui-library:
-    name: "UI Library"
     description: "Reusable UI components"
     icon: "Box"
-    category: "application"
     color: 1
 
   # Core Packages
   pg-meta:
-    name: "Postgres Meta"
     description: "PostgreSQL database management layer"
     icon: "Database"
-    category: "core"
     color: 4
   
   common:
-    name: "Common"
     description: "Shared utilities and types"
     icon: "Package"
-    category: "core"
     color: 3
   
   api-types:
-    name: "API Types"
     description: "TypeScript type definitions for APIs"
     icon: "Type"
-    category: "core"
     color: 5
   
   ui:
-    name: "UI Components"
     description: "Base UI component library"
     icon: "Layers"
-    category: "core"
     color: 6
   
   ui-patterns:
-    name: "UI Patterns"
     description: "Higher-level UI patterns and compositions"
     icon: "Grid3x3"
-    category: "core"
     color: 1
 
   # AI & Tools
   ai-commands:
-    name: "AI Commands"
     description: "AI-powered SQL and development commands"
     icon: "Cpu"
-    category: "tools"
     color: 2
   
   generator:
-    name: "Generator"
     description: "Code generation tools"
     icon: "Wand2"
-    category: "tools"
     color: 3
 
   # Infrastructure
   shared-data:
-    name: "Shared Data"
     description: "Configuration and shared data"
     icon: "HardDrive"
-    category: "infrastructure"
     color: 4
   
   config:
-    name: "Config"
     description: "Build and development configuration"
     icon: "Settings"
-    category: "infrastructure"
     color: 5
   
   tsconfig:
-    name: "TypeScript Config"
     description: "TypeScript configuration presets"
     icon: "Code2"
-    category: "infrastructure"
     color: 6
   
   eslint-config:
-    name: "ESLint Config"
     description: "ESLint configuration and rules"
     icon: "CheckCircle"
-    category: "infrastructure"
     color: 1
 
   # External Services
   postgres:
-    name: "PostgreSQL"
     description: "Primary database service"
     icon: "Database"
-    category: "external"
     color: 4
   
   auth:
-    name: "Auth Service"
     description: "Authentication and authorization"
     icon: "Shield"
-    category: "external"
     color: 2
   
   storage:
-    name: "Storage"
     description: "File storage service"
     icon: "Cloud"
-    category: "external"
     color: 3
   
   realtime:
-    name: "Realtime"
     description: "Real-time subscription service"
     icon: "Zap"
-    category: "external"
     color: 5
   
   edge-functions:
-    name: "Edge Functions"
     description: "Serverless compute platform"
     icon: "Cloud"
-    category: "external"
     color: 6
 
 edgeComponents:
   # Dependencies
   depends-on:
-    name: "depends on"
     description: "Direct dependency relationship"
     style: "solid"
     color: 4
   
   imports:
-    name: "imports"
     description: "Code import relationship"
     style: "dashed"
     color: 3
   
   uses:
-    name: "uses"
     description: "Uses or consumes"
     style: "dotted"
     color: 5
   
   extends:
-    name: "extends"
     description: "Extends or inherits from"
     style: "solid"
     color: 6
   
   configures:
-    name: "configures"
     description: "Configuration relationship"
     style: "dashed"
     color: 2
   
   deploys-to:
-    name: "deploys to"
     description: "Deployment target"
     style: "solid"
     color: 1
   
   communicates-with:
-    name: "communicates with"
     description: "API or service communication"
     style: "animated"
     color: 3
   
   manages:
-    name: "manages"
     description: "Management or control relationship"
     style: "solid"
     color: 2
