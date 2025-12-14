@@ -1,0 +1,1953 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-14T23:00:33.676Z",
+    "version": "1.0.0",
+    "totalPackages": 25,
+    "totalLenses": 42
+  },
+  "results": [
+    {
+      "package": {
+        "name": "@supabase/vue-blocks",
+        "path": "blocks/vue"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 739,
+        "timestamp": 1765753182534
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "docs",
+        "path": "docs/reference/docs"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 736,
+        "timestamp": 1765753183271
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "docs",
+        "path": "docs/reference/docs"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 2074,
+        "timestamp": 1765753185346
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 15,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 15,
+          "passedSuites": 0,
+          "failedSuites": 15,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "docs",
+        "path": "docs/reference/docs"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 564,
+        "timestamp": 1765753185910
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "www",
+        "path": "docs/www"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 712,
+        "timestamp": 1765753186623
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "www",
+        "path": "docs/www"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 905,
+        "timestamp": 1765753187528
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "www",
+        "path": "docs/www"
+      },
+      "lens": {
+        "id": "prettier",
+        "command": "prettier"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 594,
+        "timestamp": 1765753188123
+      },
+      "issues": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/docs/www/noop.js",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        }
+      ],
+      "metrics": {
+        "filesAnalyzed": 1,
+        "totalIssues": 1,
+        "issuesBySeverity": {
+          "error": 1,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesNeedingFormatting": 1,
+          "formattingCompliance": 0
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/docs/www/noop.js",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "clerk",
+        "path": "examples/clerk"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 582,
+        "timestamp": 1765753188705
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "app",
+        "path": "examples/edge-functions/app"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 836,
+        "timestamp": 1765753189541
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 0,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 0,
+          "passedSuites": 0,
+          "failedSuites": 0,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "expo-social-auth",
+        "path": "examples/integrations/auth/expo-social-auth"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 645,
+        "timestamp": 1765753190187
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "sveltekit",
+        "path": "examples/integrations/auth/sveltekit"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 826,
+        "timestamp": 1765753191013
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 0,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 0,
+          "passedSuites": 0,
+          "failedSuites": 0,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "sveltekit",
+        "path": "examples/integrations/auth/sveltekit-full"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 0,
+        "duration": 849,
+        "timestamp": 1765753191862
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 0,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 0,
+          "passedSuites": 0,
+          "failedSuites": 0,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "with-nextjs-13",
+        "path": "examples/integrations/caching/with-nextjs-13"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 592,
+        "timestamp": 1765753192454
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "next13",
+        "path": "examples/integrations/caching/with-nextjs-13-server-components"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 590,
+        "timestamp": 1765753193044
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supa-react-query",
+        "path": "examples/integrations/caching/with-react-query-nextjs-14"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 661,
+        "timestamp": 1765753193705
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "nextjs-auth-presence",
+        "path": "examples/integrations/realtime/nextjs-auth-presence"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 635,
+        "timestamp": 1765753194340
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "nextjs-auth-presence",
+        "path": "examples/integrations/realtime/nextjs-auth-presence"
+      },
+      "lens": {
+        "id": "prettier",
+        "command": "format"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 559,
+        "timestamp": 1765753194900
+      },
+      "issues": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/examples/integrations/realtime/nextjs-auth-presence/noop.js",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        }
+      ],
+      "metrics": {
+        "filesAnalyzed": 1,
+        "totalIssues": 1,
+        "issuesBySeverity": {
+          "error": 1,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesNeedingFormatting": 1,
+          "formattingCompliance": 0
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/examples/integrations/realtime/nextjs-auth-presence/noop.js",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "nextjs-todo-list",
+        "path": "examples/starters/todo-list/nextjs-todo-list"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 586,
+        "timestamp": 1765753195486
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "angular-user-management",
+        "path": "examples/starters/user-management/angular-user-management"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 1604,
+        "timestamp": 1765753197090
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 4,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 4,
+          "passedSuites": 0,
+          "failedSuites": 4,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "expo-user-management",
+        "path": "examples/starters/user-management/expo-user-management"
+      },
+      "lens": {
+        "id": "prettier",
+        "command": "format"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 880,
+        "timestamp": 1765753197972
+      },
+      "issues": [
+        {
+          "file": ".prettierrc",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "app.json",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "components/Avatar.tsx",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "index.js",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "metro.config.js",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        }
+      ],
+      "metrics": {
+        "filesAnalyzed": 5,
+        "totalIssues": 5,
+        "issuesBySeverity": {
+          "error": 5,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesNeedingFormatting": 5,
+          "formattingCompliance": 0
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": ".prettierrc",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "app.json",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "components/Avatar.tsx",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "index.js",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "metro.config.js",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supabase-nextjs",
+        "path": "examples/starters/user-management/nextjs-user-management"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 698,
+        "timestamp": 1765753198670
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "solidjs-user-management",
+        "path": "examples/starters/user-management/solid-user-management"
+      },
+      "lens": {
+        "id": "prettier",
+        "command": "format"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 785,
+        "timestamp": 1765753199455
+      },
+      "issues": [
+        {
+          "file": ".prettierrc",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "index.html",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "src/index.css",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "tsconfig.json",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        },
+        {
+          "file": "vite.config.ts",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        }
+      ],
+      "metrics": {
+        "filesAnalyzed": 5,
+        "totalIssues": 5,
+        "issuesBySeverity": {
+          "error": 5,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesNeedingFormatting": 5,
+          "formattingCompliance": 0
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": ".prettierrc",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "index.html",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "src/index.css",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "tsconfig.json",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        },
+        {
+          "file": "vite.config.ts",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supabase",
+        "path": ""
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 602,
+        "timestamp": 1765753200057
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supabase",
+        "path": ""
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 521,
+        "timestamp": 1765753200579
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supabase",
+        "path": ""
+      },
+      "lens": {
+        "id": "prettier",
+        "command": "format"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 654,
+        "timestamp": 1765753201233
+      },
+      "issues": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/noop.js",
+          "line": 1,
+          "column": 1,
+          "severity": "error",
+          "message": "File is not formatted according to Prettier rules",
+          "rule": "prettier",
+          "source": "prettier",
+          "category": "formatting"
+        }
+      ],
+      "metrics": {
+        "filesAnalyzed": 1,
+        "totalIssues": 1,
+        "issuesBySeverity": {
+          "error": 1,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesNeedingFormatting": 1,
+          "formattingCompliance": 0
+        }
+      },
+      "fileMetrics": [
+        {
+          "file": "[error] Cannot find package 'prettier-plugin-sql-cst' imported from /Users/michaelflannery/Developer/forks/supabase/noop.js",
+          "score": 90,
+          "issueCount": 1,
+          "errorCount": 1,
+          "warningCount": 0,
+          "infoCount": 0,
+          "hintCount": 0,
+          "categories": {
+            "formatting": 1
+          }
+        }
+      ],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "supabase",
+        "path": ""
+      },
+      "lens": {
+        "id": "knip",
+        "command": "knip"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 12721,
+        "timestamp": 1765753213956
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "@supabase/pg-meta",
+        "path": "packages/core/pg-meta"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 2624,
+        "timestamp": 1765753216580
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 24,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 24,
+          "passedSuites": 0,
+          "failedSuites": 24,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "@supabase/pg-meta",
+        "path": "packages/core/pg-meta"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 803,
+        "timestamp": 1765753217384
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ai-commands",
+        "path": "packages/shared/ai-commands"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 576,
+        "timestamp": 1765753217960
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ai-commands",
+        "path": "packages/shared/ai-commands"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 1072,
+        "timestamp": 1765753219034
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 1,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 1,
+          "passedSuites": 0,
+          "failedSuites": 1,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui",
+        "path": "packages/shared/ui"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 640,
+        "timestamp": 1765753219674
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui",
+        "path": "packages/shared/ui"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 2367,
+        "timestamp": 1765753222041
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 10,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 10,
+          "passedSuites": 0,
+          "failedSuites": 10,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui-patterns",
+        "path": "packages/shared/ui-patterns"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 2036,
+        "timestamp": 1765753224078
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 9,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 9,
+          "passedSuites": 0,
+          "failedSuites": 9,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui-patterns",
+        "path": "packages/shared/ui-patterns"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 613,
+        "timestamp": 1765753224691
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "studio",
+        "path": "platform/studio"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 734,
+        "timestamp": 1765753225425
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "studio",
+        "path": "platform/studio"
+      },
+      "lens": {
+        "id": "test",
+        "command": "test"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 4079,
+        "timestamp": 1765753229507
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 95,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "totalTests": 0,
+          "passedTests": 0,
+          "failedTests": 0,
+          "skippedTests": 0,
+          "testSuites": 95,
+          "passedSuites": 0,
+          "failedSuites": 95,
+          "passRate": 0,
+          "duration": 0,
+          "slowestTests": [],
+          "snapshot": {
+            "total": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "updated": 0
+          }
+        }
+      },
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "studio",
+        "path": "platform/studio"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 634,
+        "timestamp": 1765753230145
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "cms",
+        "path": "tools/cms"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 736,
+        "timestamp": 1765753230881
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "design-system",
+        "path": "tools/design-system"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 742,
+        "timestamp": 1765753231623
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "design-system",
+        "path": "tools/design-system"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 613,
+        "timestamp": 1765753232236
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui-library",
+        "path": "tools/ui-library"
+      },
+      "lens": {
+        "id": "eslint",
+        "command": "lint"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 2,
+        "duration": 779,
+        "timestamp": 1765753233015
+      },
+      "issues": [],
+      "metrics": {},
+      "qualityContext": {}
+    },
+    {
+      "package": {
+        "name": "ui-library",
+        "path": "tools/ui-library"
+      },
+      "lens": {
+        "id": "typescript",
+        "command": "typecheck"
+      },
+      "execution": {
+        "success": true,
+        "exitCode": 1,
+        "duration": 660,
+        "timestamp": 1765753233676
+      },
+      "issues": [],
+      "metrics": {
+        "filesAnalyzed": 6,
+        "totalIssues": 0,
+        "issuesBySeverity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0,
+          "hint": 0
+        },
+        "executionTime": 0,
+        "custom": {
+          "filesWithErrors": 0,
+          "totalErrors": 0,
+          "totalWarnings": 0,
+          "totalSuggestions": 0,
+          "uniqueErrorCodes": 0,
+          "topErrors": []
+        }
+      },
+      "fileMetrics": [],
+      "qualityContext": {}
+    }
+  ],
+  "qualityMetrics": {
+    "packages": [
+      {
+        "name": "@supabase/vue-blocks",
+        "path": "blocks/vue",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "docs",
+        "path": "docs/reference/docs",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "www",
+        "path": "docs/www",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 70,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "clerk",
+        "path": "examples/clerk",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "app",
+        "path": "examples/edge-functions/app",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "expo-social-auth",
+        "path": "examples/integrations/auth/expo-social-auth",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "sveltekit",
+        "path": "examples/integrations/auth/sveltekit",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "with-nextjs-13",
+        "path": "examples/integrations/caching/with-nextjs-13",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "next13",
+        "path": "examples/integrations/caching/with-nextjs-13-server-components",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "supa-react-query",
+        "path": "examples/integrations/caching/with-react-query-nextjs-14",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "nextjs-auth-presence",
+        "path": "examples/integrations/realtime/nextjs-auth-presence",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 70,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "nextjs-todo-list",
+        "path": "examples/starters/todo-list/nextjs-todo-list",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "angular-user-management",
+        "path": "examples/starters/user-management/angular-user-management",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "expo-user-management",
+        "path": "examples/starters/user-management/expo-user-management",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 70,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "supabase-nextjs",
+        "path": "examples/starters/user-management/nextjs-user-management",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "solidjs-user-management",
+        "path": "examples/starters/user-management/solid-user-management",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 70,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "supabase",
+        "path": "",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 100,
+          "formatting": 70,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "@supabase/pg-meta",
+        "path": "packages/core/pg-meta",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "ai-commands",
+        "path": "packages/shared/ai-commands",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "ui",
+        "path": "packages/shared/ui",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "ui-patterns",
+        "path": "packages/shared/ui-patterns",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "studio",
+        "path": "platform/studio",
+        "hexagon": {
+          "tests": 100,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "cms",
+        "path": "tools/cms",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 0,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "design-system",
+        "path": "tools/design-system",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      },
+      {
+        "name": "ui-library",
+        "path": "tools/ui-library",
+        "hexagon": {
+          "tests": 0,
+          "deadCode": 0,
+          "formatting": 0,
+          "linting": 0,
+          "types": 100,
+          "documentation": 0
+        }
+      }
+    ]
+  }
+}
